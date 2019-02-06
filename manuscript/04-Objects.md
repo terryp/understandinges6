@@ -126,8 +126,8 @@ The square brackets inside the object literal indicate that the property name is
 var suffix = " name";
 
 var person = {
-    ["first" + suffix]: "Nicholas",
-    ["last" + suffix]: "Zakas"
+    ["first " + suffix]: "Nicholas",
+    ["last " + suffix]: "Zakas"
 };
 
 console.log(person["first name"]);      // "Nicholas"
